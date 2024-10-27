@@ -27,14 +27,30 @@
   border-radius: 50%;
 }
 
-.form-control:focus{
-  outline: none;
-  box-shadow: none;
-}
-
-
 #newsletter1:focus {
   outline: none;
   box-shadow: none;
 }
 
+.form-control:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+@media (max-width: 576px) {
+  .mb-mobile {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mb-mobile {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .mb-mobile {
+    margin-bottom: 15px;
+  }
+}
